@@ -1,4 +1,4 @@
-# awardco TEST PLAYGROUND
+# Awardco Test Playground
 
 A playground to experiment with creating Vue components and writing Cypress tests.
 
@@ -20,6 +20,11 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Opens Cypress instance
+```
+npm run cypress:open
 ```
 
 ### Customize configuration
