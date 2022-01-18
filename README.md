@@ -1,4 +1,4 @@
-# awardco-test-playground
+# awardco TEST PLAYGROUND
 
 A playground to experiment with creating Vue components and writing Cypress tests.
 
