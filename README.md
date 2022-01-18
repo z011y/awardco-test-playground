@@ -1,4 +1,6 @@
-# test-playground
+# awardco-test-playground
+
+A playground to experiment with creating Vue components and writing Cypress tests.
 
 ## Project setup
 ```
@@ -22,4 +24,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# awardco-test-playground
