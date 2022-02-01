@@ -27,7 +27,10 @@ npm run lint
 ```
 
 ### Opens Cypress instance
+<<<<<<< HEAD
 
+=======
+>>>>>>> 24cb92c3ca0beacbede9f93000848a1baba92fe7
 ```
 npm run cypress:open
 ```
