@@ -1,21 +1,21 @@
 <template>
-    <router-link to="/" data-test="back-button">
-        <div class="back" >
-            <ph-arrow-left  weight="bold" :size="18"/>
-            <span class="back-text">Back</span>
-        </div>
-    </router-link>
+  <router-link to="/" data-test="back-button">
+    <div class="back">
+      <ph-arrow-left weight="bold" :size="18" />
+      <span class="back-text">Back</span>
+    </div>
+  </router-link>
 </template>
 
 <script>
-import {PhArrowLeft} from 'phosphor-vue';
+  import { PhArrowLeft } from "phosphor-vue";
 
-export default {
-    name: 'BackButton',
+  export default {
+    name: "BackButton",
     components: {
-        PhArrowLeft
-    }
-}
+      PhArrowLeft,
+    },
+  };
 </script>
 
 <style scoped>
@@ -31,7 +31,7 @@ export default {
 
   .back-text {
     transform: translateX(-8px);
-    transition: ease-in-out .15s;
+    transition: ease-in-out 0.15s;
   }
 
   .back:hover .back-text {

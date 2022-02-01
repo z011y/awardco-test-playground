@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <ComponentGrid/>
+    <component-grid />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ComponentGrid from '../components/ComponentGrid.vue';
+  // @ is an alias to /src
+  import ComponentGrid from "../components/ComponentGrid.vue";
 
-export default {
-  name: 'Home',
-  components: {
-    ComponentGrid
-  }
-}
+  export default {
+    name: "Home",
+    components: {
+      ComponentGrid,
+    },
+  };
 </script>
