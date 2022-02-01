@@ -27,14 +27,14 @@ npm run lint
 ```
 
 ### Opens Cypress instance
-<<<<<<< HEAD
 
-=======
->>>>>>> 24cb92c3ca0beacbede9f93000848a1baba92fe7
 ```
 npm run cypress:open
 ```
 
-### Customize configuration
+## Creating your component
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Create a new file in /components
+- Build your component in that file
+- Import the component into the correct file under /views
+- Handle all your component's state in the view file and pass it to the child component as props
