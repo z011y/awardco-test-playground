@@ -9,6 +9,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "core-js": "^3.6.5",
     "phosphor-vue": "^1.4.0",
     "vue": "^2.6.11",

@@ -30,6 +30,11 @@
       description="A standard modal with open and closed state."
       link="/modal"
     />
+    <component-link
+      name="Faker"
+      description="A page displaying standard data being pulled from an API."
+      link="/faker"
+    />
   </div>
 </template>
 
